@@ -1,0 +1,318 @@
+body {
+	min-width: 1200px;
+	height: 100%;
+	width: 100%;
+	scroll-behavior: smooth;
+	background: url(../images/Dolphins-Pearl-Deluxe.jpg) #213A9C no-repeat;
+	background-size: cover;
+	font-family: 'Fondamento', cursive;
+	color: #FFFFFF;
+}
+
+#conteiner {	
+    min-height: 670px;	
+	width: 90%;  
+	margin: 10px auto;
+	padding: 10px; 
+	opacity:0.9;
+	margin-top: 40px;
+	display: flex;
+	position: relative;
+	margin-top: 10%;
+}
+
+#login {
+	height: 80px;
+	width: 350px;
+	padding: 4px;
+	margin-left: 70.5%; 	
+	position: absolute; 
+	top: 6px;
+	background: rgb(221,222,102);
+    background: radial-gradient(circle, rgba(221,222,102,1) 0%, rgba(102,139,222,0.0032387955182072714) 82%);
+	text-shadow: 1px 1px 2px black;
+	font-weight: 700;
+}
+#box {	
+	margin-top: 10vh;
+	background: #FBABAB;
+	width: 100%;
+	float:right;
+	border: 3px solid #EDFC04;	
+}
+
+#table {	
+	width: 500px;
+	margin-top: 10vh;	
+	font-family: 'Fondamento', cursive;
+}
+
+#rez {
+	height: 300px;
+	width: 62%;
+	margin: 10vh 10% 4%;
+	background: url(../images/c9292860eaeaaf2ee3ac961fcf1d514c.png) no-repeat;
+	background-size: 100%;
+	text-align: center;
+	color: #FFF600;
+	text-shadow: 1px 1px 2px black;
+	position: relative;
+}
+
+#game {
+	margin: 0% 10% 0%;
+	width: 500px;	
+}
+
+.pearl, .shark, .octopus, .fish, .star, .shell {
+	display: inline-block;
+}
+
+table {
+	height: 526px;
+	width: 500px;	
+	background-image: linear-gradient(to top right, rgb(11, 21, 138), rgb(18, 28, 144), rgb(25, 34, 151), rgb(32, 41, 157), rgb(39, 47, 163), rgb(46, 54, 169), rgb(54, 60, 176), rgb(61, 67, 182), rgb(68, 73, 188), rgb(75, 80, 194), rgb(82, 86, 201), rgb(89, 93, 207));
+	text-align: center;
+	text-shadow: 1px 1px 2px black;
+}
+
+tbody td:first-child {
+	width: 40%;
+}
+tbody td:last-child {
+	width: 25%;
+}
+
+td {
+ 	border: 1px solid #BBC15C;
+}
+
+thead {
+	background-image: linear-gradient(to top right, rgb(196, 224, 56), rgb(183, 207, 65), rgb(169, 189, 74), rgb(156, 172, 82), rgb(143, 155, 91), rgb(130, 138, 100), rgb(116, 120, 109), rgb(103, 103, 118), rgb(90, 86, 127), rgb(77, 69, 135), rgb(63, 51, 144), rgb(50, 34, 153));
+}
+
+thead td {
+	height: 53px;	
+}
+
+#gold {
+	background: url(../images/edf2d0eb00a6188be8a5386ce35699c9.png) 1px -11px no-repeat;
+	background-size: 51%;
+	height: 24vh;
+	position: relative;
+}
+#gold2 {
+	background: url(../images/gold-153031_1280.png) 58px 0px  no-repeat;
+	background-size: 45%;	
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-left:3%;	
+	position: absolute;
+}
+
+#f1, #f2, #f3 {
+	margin-top: 5%;	
+}
+
+#f1 {
+	margin-left: 16%;
+}
+
+#f2 {
+	margin-left: 3%;
+}
+
+#f3 {
+	margin-left: 3%;
+}
+
+
+button#but {
+   position: absolute;
+   bottom: 3%;
+   right: -9%;
+   margin: 4px auto 0;    
+   border: none;
+   padding: 20px 40px;
+   width: 100%;   
+   background-image: -webkit-linear-gradient(bottom left, rgb(196, 224, 56), rgb(183, 207, 65), rgb(169, 189, 74), rgb(156, 172, 82), rgb(143, 155, 91), rgb(130, 138, 100), rgb(116, 120, 109), rgb(103, 103, 118), rgb(90, 86, 127), rgb(77, 69, 135), rgb(63, 51, 144), rgb(50, 34, 153));
+   background-image: -o-linear-gradient(bottom left, rgb(196, 224, 56), rgb(183, 207, 65), rgb(169, 189, 74), rgb(156, 172, 82), rgb(143, 155, 91), rgb(130, 138, 100), rgb(116, 120, 109), rgb(103, 103, 118), rgb(90, 86, 127), rgb(77, 69, 135), rgb(63, 51, 144), rgb(50, 34, 153));
+   background-image: linear-gradient(to top right, rgb(196, 224, 56), rgb(183, 207, 65), rgb(169, 189, 74), rgb(156, 172, 82), rgb(143, 155, 91), rgb(130, 138, 100), rgb(116, 120, 109), rgb(103, 103, 118), rgb(90, 86, 127), rgb(77, 69, 135), rgb(63, 51, 144), rgb(50, 34, 153))	;
+   font-size: 16px;
+   max-width: 220px;
+   min-width: 100px;
+   color: #EEFD03;
+   margin-bottom: 15px;
+   cursor: pointer;
+   transition: .2s;
+   font-family: 'Fondamento', cursive;
+   font-weight: 900;
+   text-shadow: 1px 1px 2px black;
+} 
+
+button#but:hover {
+  letter-spacing: 3px;
+} 
+
+button#but:active {
+  transform: scale(1.2);
+}
+
+button#but:before, button#but:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px; 
+  background: linear-gradient(45deg, #CC00FF, #6E0DD0, #9900FF, #FF6600, #00FF00, #ffff00, #ff0000, #FFFF00, #FFFF33, #ffff00, #FF00FF, #FF00CC, #FF0000, #00FF66, #33FF00, #00FFFF, #099FFF, #0062FF, #ff0000, #F2EA02, #E6FB04, #0033FF, #FF0099, #00FF33, #0000ff, #00ff00, #fb0094, #0000ff, #00ff00, #fb0094, #FD1C03, #FF3300, #CC00FF, #9D00FF, #CC00FF, #6E0DD0, #9900FF);
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: linear-shadow 25s linear infinite;
+}
+
+button#but:before {
+  filter: blur(20px);
+}
+
+@keyframes linear-shadow {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+.money, .stavka, .praze {
+	margin-top: 7%;
+	width: 100%;
+	height: 20%;	
+}
+
+#money, #stavka, #praze {
+	padding-top: 10px;
+	font-size: 1.2em;
+	margin: 3px 17%;
+	width: 66%;
+	height: 45px;
+	background: rgb(221,222,102);
+    background: radial-gradient(circle, rgba(221,222,102,1) 0%, rgba(102,139,222,0.0032387955182072714) 82%);
+}
+
+.money {
+	padding-top: 35px;
+}
+
+.stavka {
+	padding-top: 20px;
+}
+
+.praze {
+	padding-top: 7px;
+}
+
+img #gold2 {
+	position: absolute;
+	top: 0px;
+	left:0px;
+}
+
+#left, #right {
+	position: absolute;
+	padding: 3px 5px;
+	background: #C5B352;
+	color: #FFF003;
+	font-weight: 900;
+   	text-shadow: 1px 1px 2px black;
+}
+
+#left {	
+	top:132px;
+	left:81px;
+}
+
+#right {	
+	top:132px;
+	left:204px;
+}
+
+#left:hover, #right:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+#newDiv {
+	position: absolute;
+	z-index: 5;
+	width: 500px;
+	height: 300px;
+	background: url(../images/im.png) no-repeat #D0F6FF 56% -15%;
+	background-size: 66%;
+	border-radius: 20px;
+	margin: 9% 33%;
+}
+
+#pp {
+	color: #060000;
+	text-align: center;
+	margin-top: 48%;
+	font-weight: 800;   	
+}
+
+.hide {
+	filter: blur(5px);
+}
+
+.show {
+	display: inline-block;
+}
+
+.show1 {
+	display: none;
+}
+
+#newButn {
+	position: absolute;
+	right: -10%;
+	background: transparent;
+	font-size: 14px;   
+    color: #FFFFFF;   
+    cursor: pointer;   
+    font-family: 'Fondamento', cursive;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px black;
+}
+
+#text {
+	padding: 2px 10px;
+}
+
+#counter, #date {
+	position: absolute;
+	margin-left: 70.5%;
+	text-shadow: 1px 1px 2px black;
+}
+
+#counter {	
+	top:35px;	
+}
+
+#date {	
+	top:62px;	
+}
+
+u {
+	font-size:1.2em;
+}
+
+#newBut {	
+	background: #FFFFFF;
+	font-size: 14px;   
+    color: #000000;   
+    cursor: pointer;   
+    font-family: 'Fondamento', cursive;
+    font-weight: 400;
+	text-shadow: 1px 1px 2px black;
+	margin: 2% 46%;
+	padding: 3px 6px;
+}
+
